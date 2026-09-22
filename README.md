@@ -3,7 +3,6 @@
 ## 1. Group Information
 
 **Class:** C 
-
 **Group:** 7
 
 ### Group Members
