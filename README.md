@@ -110,3 +110,8 @@ The program is tested using several test scenarios.
 Testing documentation:
 
 `test-cases.md`
+TEST 1 : Usia <5 (harga Rp0)
+- INPUT = Usia 4tahun, harga Rp0, kode promo = -
+- EXPECTED OUTPUT = Total = Rp0
+- ACTUAL OUTPUT = Correct
+
