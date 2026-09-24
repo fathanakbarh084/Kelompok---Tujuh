@@ -11,7 +11,7 @@
 | No. | Name | Student ID | Role |
 |---|---|---|---|
 | 1 | Fathan Akbar Hadiyansyah | 2610312084 | Project Coordinator |
-| 2 | 'Isyta Kamiliyah | 2610312079 | Algorithm |
+| 2 | Isyta Kamiliyah | 2610312079 | Algorithm |
 | 3 | Zaky Muhammad Abdan Syakuuron | 2610312092 | Flowchart |
 | 4 | Nafisa Anzani Putri Thahir | 2510312027 | JavaScript |
 | 5 | Mutiara Fatimah Hanryani | 2610312090 | Testing & Documentation |
