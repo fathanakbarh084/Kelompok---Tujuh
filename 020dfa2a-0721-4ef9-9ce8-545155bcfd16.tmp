@@ -1,0 +1,50 @@
+Function Main
+    Declare Integer i, jumlahTiket, usia
+    Declare String namaPembeli, hari, kodePromo
+    Declare Real hargaDasar, totalTiket, totalDasar, totalHarga, totalAkhir
+
+    Assign totalTiket = 0
+    Assign totalDasar = 0
+    Output "Masukkan Jumlah Tiket Yang Ingin Anda Beli :"
+    Input jumlahTiket
+    For i = 1 to jumlahTiket
+        Output "Pemilik Tiket Ke-" & i & " :"
+        Output "Masukkan Nama Pemilik Tiket :"
+        Input namaPembeli
+        Output "Masukkan Usia Pemilik Tiket :"
+        Input usia
+        If usia < 5
+            Assign hargaDasar = 0
+        Else
+            If usia <= 12
+                Assign hargaDasar = 20000
+            Else
+                If usia < 59
+                    Assign hargaDasar = 50000
+                Else
+                    If usia >= 60
+                        Assign hargaDasar = 35000
+                    End
+                End
+            End
+        End
+        Assign totalDasar = totalDasar+hargaDasar
+    End
+    Output "Masukkan Hari Pembelian Tiket :"
+    Input hari
+    If hari == "sabtu" or hari == "minggu"
+        Assign totalAkhir = totalDasar + (totalDasar * 0.20)
+    Else
+        Assign totalAkhir = totalDasar
+    End
+    If jumlahTiket >= 5
+        Assign totalAkhir = totalAkhir - (totalAkhir * 0.10)
+    End
+    Output "Masukkan Kode Promo Pembelian Tiket :"
+    Input kodePromo
+    If kodePromo == "HEMAT7"
+        Assign totalAkhir = totalAkhir - 10000
+    End
+    Output "Total Tiket Yang Dibeli : " & jumlahTiket
+    Output "Total Biaya Pembayaran Tiket : Rp" & totalAkhir
+End
