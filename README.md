@@ -107,7 +107,7 @@ The JavaScript implementation of the program is available in:
 
 The program is tested using several test scenarios.
 
-Testing documentation:
+Testing documentation: [test-cases.md](https://github.com/fathanakbarh084/Kelompok---Tujuh/blob/25c3068c71ba5a81ea33b66bc8ca7d180dc195f0/test-cases.md)
 
 `test-cases.md`
 
