@@ -79,7 +79,7 @@ The program displays:
 
 ## 8. Algorithm
 
-The algorithm used in the program is described in:
+The algorithm used in the program is described in: [pseudocode.txt](https://drive.google.com/file/d/1lA6EyF7pdoiTnbFak9Q0rmasI8LQJMM9/view?usp=drive_link)
 
 `pseudocode.txt`
 
